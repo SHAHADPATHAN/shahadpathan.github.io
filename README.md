@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -421,6 +422,93 @@
     .project-link:hover {
       background: #00d4ff;
       color: #000;
+    }
+
+    /* Certificates Section Enhancements */
+    .certificates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+    }
+
+    .certificate-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .certificate-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #00ff88, #00d4ff);
+    }
+
+    .certificate-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 255, 136, 0.2);
+    }
+
+    .certificate-icon {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .certificate-card h3 {
+      color: #00ff88;
+      margin-bottom: 15px;
+      font-size: 1.4em;
+    }
+
+    .certificate-card p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .certificate-details {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .cert-issuer {
+      color: #00d4ff;
+      font-weight: 600;
+    }
+
+    .cert-date {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9em;
+    }
+
+    .certificate-link {
+      display: inline-block;
+      color: #00d4ff;
+      text-decoration: none;
+      padding: 10px 25px;
+      border: 2px solid #00d4ff;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      font-weight: 600;
+    }
+
+    .certificate-link:hover {
+      background: #00d4ff;
+      color: #000;
+      transform: translateY(-2px);
     }
 
     /* Contact Section Enhancements */
@@ -971,6 +1059,16 @@
         align-items: center;
       }
 
+      .certificates-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .certificate-details {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+
       .contact-item {
         flex-direction: column;
         text-align: center;
@@ -1003,6 +1101,7 @@
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="certificates.html" target="_blank" class="nav-link">Certificates</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <div class="hamburger">
@@ -1149,6 +1248,65 @@
     </div>
   </section>
 
+  <section id="certificates" class="certificates">
+    <div class="section-header">
+      <h2>Certificates & Achievements</h2>
+      <div class="section-subtitle">My professional certifications and accomplishments</div>
+    </div>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <div class="certificate-icon">📱</div>
+        <h3>Flutter Development</h3>
+        <p>Successfully completed the Flutter Webinar Series: Build, Innovate, Launch! Demonstrated commitment to learning, innovation, and advancing skills in Flutter development.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">IEEE MMU CS & Ultron Technologies</span>
+          <span class="cert-date">December 2024</span>
+        </div>
+        <a href="attached_assets/Blue and Gold Simple Certificate_20241216_195012_0000.png" target="_blank" class="certificate-link">View Certificate</a>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-icon">⚡</div>
+        <h3>JavaScript Mastery</h3>
+        <p>Successfully completed the Mastering JS session under GDG SUI Tech Winter Break. Covered essential concepts and practical applications of JavaScript, modern frameworks, and effective coding practices.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">Google Developer Groups - SAGE University</span>
+          <span class="cert-date">December 2024</span>
+        </div>
+        <a href="attached_assets/1 (24).PNG" target="_blank" class="certificate-link">View Certificate</a>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-icon">🚀</div>
+        <h3>Agnirva Space Internship Program</h3>
+        <p>Successfully completed The Agnirva Space Internship Program, demonstrating commitment to space technology and innovation. Gained valuable experience in space-related projects and technologies.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">Agnirva</span>
+          <span class="cert-date">January 2025</span>
+        </div>
+        <a href="attached_assets/THE AGNIRVA SPACE INTERNSHIP PROGRAM.pdf" target="_blank" class="certificate-link">View Certificate</a>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-icon">🐍</div>
+        <h3>Python Assessment</h3>
+        <p>Successfully completed Python Assessment from LearnTube by CareerNinja. Demonstrated proficiency in Python programming concepts, data structures, and problem-solving skills.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">LearnTube by CareerNinja</span>
+          <span class="cert-date">September 2024</span>
+        </div>
+        <a href="attached_assets/Python_Certificate (1).pdf" target="_blank" class="certificate-link">View Certificate</a>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-icon">📱</div>
+        <h3>Flutter Workshop Participation</h3>
+        <p>Participated in Flutter Workshop organized by Google Developer Groups On Campus R.V.R&J.C. Gained hands-on experience with Flutter for mobile application development and design.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">Google Developer Groups RVR&JC CE</span>
+          <span class="cert-date">December 2024</span>
+        </div>
+        <a href="attached_assets/Pathan Shahad (2).pdf" target="_blank" class="certificate-link">View Certificate</a>
+      </div>
+    </div>
+  </section>
+
   <section id="contact" class="contact">
     <div class="section-header">
       <h2>Get In Touch</h2>
@@ -1160,7 +1318,7 @@
           <div class="contact-icon">📧</div>
           <div class="contact-details">
             <h4>Email</h4>
-            <p>241370107053@gtu.edu.in</p>
+            <p><a href="mailto:241370107053@gtu.edu.in">241370107053@gtu.edu.in</a></p>
           </div>
         </div>
         <div class="contact-item">
@@ -1175,6 +1333,20 @@
           <div class="contact-details">
             <h4>LinkedIn</h4>
             <p><a href="https://www.linkedin.com/in/shahad-pathan-a909972ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/shahad-pathan</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">💻</div>
+          <div class="contact-details">
+            <h4>GitHub</h4>
+            <p><a href="https://github.com/SHAHADPATHAN" target="_blank" style="color: #00d4ff; text-decoration: none;">github.com/SHAHADPATHAN</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-details">
+            <h4>Location</h4>
+            <p><a href="https://www.google.com/maps/search/Mehsana,+Gujarat,+India" target="_blank" style="color: #00d4ff; text-decoration: none;">Mehsana, Gujarat, India</a></p>
           </div>
         </div>
       </div>
