@@ -1100,7 +1100,7 @@
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <div class="hamburger">
