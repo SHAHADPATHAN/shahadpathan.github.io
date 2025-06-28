@@ -1306,16 +1306,16 @@
         <a href="Pathan Shahad (2).pdf" target="_blank" class="certificate-link">View Certificate</a>
       </div>
     </div>
-    <div class="certificate-card">
-  <div class="certificate-icon">🚧</div>
-  <h3>National Road Safety Hackathon 2025</h3>
-  <p>Participated in the National Road Safety Hackathon 2025 jointly organized by NHAI and HOAI. Contributed innovative solutions to enhance road safety using technology.</p>
-  <div class="certificate-details">
-    <span class="cert-issuer">Ministry of Road Transport & Highways | NHAI & HOAI</span>
-    <span class="cert-date">June 2025</span>
-  </div>
-  <a href="hacathoncertificate.jpg" target="_blank" class="certificate-link">View Certificate</a>
-</div>
+      <div class="certificate-card">
+        <div class="certificate-icon">🚧</div>
+        <h3>National Road Safety Hackathon 2025</h3>
+        <p>Participated in the National Road Safety Hackathon 2025 jointly organized by NHAI and HOAI. Contributed innovative solutions to enhance road safety using technology.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">Ministry of Road Transport & Highways | NHAI & HOAI</span>
+          <span class="cert-date">June 2025</span>
+        </div>
+        <a href="hacathoncertificate.jpg" target="_blank" class="certificate-link">View Certificate</a>
+    </div>
 
   </section>
 
