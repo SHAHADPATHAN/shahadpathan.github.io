@@ -465,8 +465,8 @@
 
     .certificate-card h3 {
       color: #00ff88;
-      margin-bottom: 15px;
       font-size: 1.4em;
+      margin-bottom: 10px;
     }
 
     .certificate-card p {
