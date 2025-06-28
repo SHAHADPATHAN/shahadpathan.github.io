@@ -1118,7 +1118,11 @@
         <h1>Shahad Pathan</h1>
         <h2 class="hero-subtitle">Frontend Developer | Data Scientist | Computer Engineering Student</h2>
         <p class="hero-description">Passionate about creating innovative solutions with Python, machine learning, and modern web technologies.</p>
-        
+        <section id="about">
+  <h2>👋 Hi, I'm Shahad Pathan</h2>
+  <p>I'm a Data Science enthusiast from Mehsana, currently studying Computer Engineering at GTU. I love working with data, solving problems using Python and Machine Learning.</p>
+</section>
+
         <!-- Call to Action Buttons -->
         <div class="cta-buttons">
           <a href="#projects" class="btn btn-primary">View Projects</a>
