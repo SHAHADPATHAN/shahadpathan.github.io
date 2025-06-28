@@ -1118,10 +1118,7 @@
         <h1>Shahad Pathan</h1>
         <h2 class="hero-subtitle">Frontend Developer | Data Scientist | Computer Engineering Student</h2>
         <p class="hero-description">Passionate about creating innovative solutions with Python, machine learning, and modern web technologies.</p>
-        <section id="about">
-  <h2>👋 Hi, I'm Shahad Pathan</h2>
-  <p>I'm a Data Science enthusiast from Mehsana, currently studying Computer Engineering at GTU. I love working with data, solving problems using Python and Machine Learning.</p>
-</section>
+        
 
         <!-- Call to Action Buttons -->
         <div class="cta-buttons">
@@ -1266,7 +1263,7 @@
           <span class="cert-issuer">IEEE MMU CS & Ultron Technologies</span>
           <span class="cert-date">December 2024</span>
         </div>
-        <a href="attached_assets/Blue and Gold Simple Certificate_20241216_195012_0000.png" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="1 (24).PNG" target="_blank" class="certificate-link">View Certificate</a>
       </div>
       <div class="certificate-card">
         <div class="certificate-icon">⚡</div>
@@ -1276,7 +1273,7 @@
           <span class="cert-issuer">Google Developer Groups - SAGE University</span>
           <span class="cert-date">December 2024</span>
         </div>
-        <a href="attached_assets/1 (24).PNG" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="Blue and Gold Simple Certificate_20241216_195012_0000.png" target="_blank" class="certificate-link">View Certificate</a>
       </div>
       <div class="certificate-card">
         <div class="certificate-icon">🚀</div>
@@ -1286,7 +1283,7 @@
           <span class="cert-issuer">Agnirva</span>
           <span class="cert-date">January 2025</span>
         </div>
-        <a href="attached_assets/THE AGNIRVA SPACE INTERNSHIP PROGRAM.pdf" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="THE AGNIRVA SPACE INTERNSHIP PROGRAM_page-0001.jpg" target="_blank" class="certificate-link">View Certificate</a>
       </div>
       <div class="certificate-card">
         <div class="certificate-icon">🐍</div>
@@ -1296,7 +1293,7 @@
           <span class="cert-issuer">LearnTube by CareerNinja</span>
           <span class="cert-date">September 2024</span>
         </div>
-        <a href="attached_assets/Python_Certificate (1).pdf" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="Python_Certificate (1)_page-0001.jpg" target="_blank" class="certificate-link">View Certificate</a>
       </div>
       <div class="certificate-card">
         <div class="certificate-icon">📱</div>
@@ -1306,7 +1303,7 @@
           <span class="cert-issuer">Google Developer Groups RVR&JC CE</span>
           <span class="cert-date">December 2024</span>
         </div>
-        <a href="attached_assets/Pathan Shahad (2).pdf" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="Pathan Shahad (2)_page-0001.jpg" target="_blank" class="certificate-link">View Certificate</a>
       </div>
     </div>
   </section>
