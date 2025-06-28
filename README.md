@@ -1303,7 +1303,7 @@
           <span class="cert-issuer">Google Developer Groups RVR&JC CE</span>
           <span class="cert-date">December 2024</span>
         </div>
-        <a href="Pathan Shahad (2)_page-0001.jpg" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="Pathan Shahad (2).pdf" target="_blank" class="certificate-link">View Certificate</a>
       </div>
     </div>
   </section>
