@@ -1064,9 +1064,16 @@
       }
 
       .certificate-details {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        color: #00f0ff; /* Or your theme's accent color */
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+    .cert-issuer, .cert-date {
+        white-space: nowrap;
+    }
+
       }
 
       .contact-item {
