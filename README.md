@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,9 +36,17 @@
     }
 
     @keyframes gradientShift {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
     }
 
     /* Particle System */
@@ -59,8 +68,15 @@
     }
 
     @keyframes float {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-20px) rotate(180deg); }
+
+      0%,
+      100% {
+        transform: translateY(0px) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-20px) rotate(180deg);
+      }
     }
 
     /* Enhanced Navigation */
@@ -245,6 +261,7 @@
         opacity: 0;
         transform: translateY(30px);
       }
+
       to {
         opacity: 1;
         transform: translateY(0);
@@ -568,6 +585,7 @@
         opacity: 0;
         transform: translateX(-50px);
       }
+
       to {
         opacity: 1;
         transform: translateX(0);
@@ -594,7 +612,9 @@
     }
 
     @keyframes expandWidth {
-      to { width: 100%; }
+      to {
+        width: 100%;
+      }
     }
 
     .projects ul {
@@ -659,24 +679,45 @@
       color: white;
     }
 
-    .lang-icon.html { background: linear-gradient(45deg, #e34f26, #f06529); }
-    .lang-icon.css { background: linear-gradient(45deg, #1572b6, #33a9dc); }
-    .lang-icon.js { background: linear-gradient(45deg, #f7df1e, #ffda44); color: #000; }
-    .lang-icon.python { background: linear-gradient(45deg, #3776ab, #ffd343); }
-    .lang-icon.sql { background: linear-gradient(45deg, #00758f, #336791); }
-    .lang-icon.git { background: linear-gradient(45deg, #f05032, #f14e32); }
+    .lang-icon.html {
+      background: linear-gradient(45deg, #e34f26, #f06529);
+    }
+
+    .lang-icon.css {
+      background: linear-gradient(45deg, #1572b6, #33a9dc);
+    }
+
+    .lang-icon.js {
+      background: linear-gradient(45deg, #f7df1e, #ffda44);
+      color: #000;
+    }
+
+    .lang-icon.python {
+      background: linear-gradient(45deg, #3776ab, #ffd343);
+    }
+
+    .lang-icon.sql {
+      background: linear-gradient(45deg, #00758f, #336791);
+    }
+
+    .lang-icon.git {
+      background: linear-gradient(45deg, #f05032, #f14e32);
+    }
 
     @keyframes langFloat {
       0% {
         transform: translateX(-80px) translateY(0) rotate(0deg);
         opacity: 0;
       }
+
       10% {
         opacity: 1;
       }
+
       90% {
         opacity: 1;
       }
+
       100% {
         transform: translateX(100vw) translateY(-80px) rotate(360deg);
         opacity: 0;
@@ -697,23 +738,37 @@
       font-size: 20px;
     }
 
-    .data-icon.chart { background: linear-gradient(45deg, #ff6b6b, #ee5a52); }
-    .data-icon.brain { background: linear-gradient(45deg, #4ecdc4, #44a08d); }
-    .data-icon.database { background: linear-gradient(45deg, #45b7d1, #96c93d); }
-    .data-icon.graph { background: linear-gradient(45deg, #f093fb, #f5576c); }
+    .data-icon.chart {
+      background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+    }
+
+    .data-icon.brain {
+      background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    }
+
+    .data-icon.database {
+      background: linear-gradient(45deg, #45b7d1, #96c93d);
+    }
+
+    .data-icon.graph {
+      background: linear-gradient(45deg, #f093fb, #f5576c);
+    }
 
     @keyframes dataIconFloat {
       0% {
         transform: translateX(-100px) translateY(0) scale(0.5);
         opacity: 0;
       }
+
       15% {
         opacity: 1;
         transform: scale(1);
       }
+
       85% {
         opacity: 1;
       }
+
       100% {
         transform: translateX(100vw) translateY(-60px) scale(0.5);
         opacity: 0;
@@ -736,22 +791,36 @@
       font-weight: bold;
     }
 
-    .project-icon.web { background: linear-gradient(45deg, #667eea, #764ba2); }
-    .project-icon.mobile { background: linear-gradient(45deg, #f093fb, #f5576c); }
-    .project-icon.ai { background: linear-gradient(45deg, #4facfe, #00f2fe); }
-    .project-icon.data { background: linear-gradient(45deg, #43e97b, #38f9d7); }
+    .project-icon.web {
+      background: linear-gradient(45deg, #667eea, #764ba2);
+    }
+
+    .project-icon.mobile {
+      background: linear-gradient(45deg, #f093fb, #f5576c);
+    }
+
+    .project-icon.ai {
+      background: linear-gradient(45deg, #4facfe, #00f2fe);
+    }
+
+    .project-icon.data {
+      background: linear-gradient(45deg, #43e97b, #38f9d7);
+    }
 
     @keyframes projectFloat {
       0% {
         transform: translateX(-70px) translateY(0) rotate(-10deg);
         opacity: 0;
       }
+
       12% {
         opacity: 1;
       }
+
       88% {
         opacity: 1;
       }
+
       100% {
         transform: translateX(100vw) translateY(-50px) rotate(350deg);
         opacity: 0;
@@ -774,24 +843,41 @@
       font-weight: bold;
     }
 
-    .tech-icon.computer { background: linear-gradient(45deg, #2c3e50, #34495e); }
-    .tech-icon.laptop { background: linear-gradient(45deg, #8e44ad, #9b59b6); }
-    .tech-icon.server { background: linear-gradient(45deg, #27ae60, #2ecc71); }
-    .tech-icon.code { background: linear-gradient(45deg, #e74c3c, #c0392b); }
-    .tech-icon.network { background: linear-gradient(45deg, #3498db, #2980b9); }
+    .tech-icon.computer {
+      background: linear-gradient(45deg, #2c3e50, #34495e);
+    }
+
+    .tech-icon.laptop {
+      background: linear-gradient(45deg, #8e44ad, #9b59b6);
+    }
+
+    .tech-icon.server {
+      background: linear-gradient(45deg, #27ae60, #2ecc71);
+    }
+
+    .tech-icon.code {
+      background: linear-gradient(45deg, #e74c3c, #c0392b);
+    }
+
+    .tech-icon.network {
+      background: linear-gradient(45deg, #3498db, #2980b9);
+    }
 
     @keyframes techFloat {
       0% {
         transform: translateX(-75px) translateY(0) rotate(0deg) scale(0.8);
         opacity: 0;
       }
+
       15% {
         opacity: 1;
         transform: scale(1);
       }
+
       85% {
         opacity: 1;
       }
+
       100% {
         transform: translateX(100vw) translateY(-70px) rotate(360deg) scale(0.8);
         opacity: 0;
@@ -827,12 +913,15 @@
         transform: translateX(-100%) translateY(0) rotate(0deg);
         opacity: 0;
       }
+
       10% {
         opacity: 1;
       }
+
       90% {
         opacity: 1;
       }
+
       100% {
         transform: translateX(100vw) translateY(-100px) rotate(360deg);
         opacity: 0;
@@ -844,13 +933,16 @@
         transform: translateX(-60px) translateY(0) scale(0.5);
         opacity: 0;
       }
+
       10% {
         opacity: 1;
         transform: scale(1);
       }
+
       90% {
         opacity: 1;
       }
+
       100% {
         transform: translateX(100vw) translateY(-50px) scale(0.5);
         opacity: 0;
@@ -880,14 +972,29 @@
     }
 
     @keyframes typing {
-      0% { width: 0; }
-      50% { width: 100%; }
-      100% { width: 0; }
+      0% {
+        width: 0;
+      }
+
+      50% {
+        width: 100%;
+      }
+
+      100% {
+        width: 0;
+      }
     }
 
     @keyframes blink-caret {
-      from, to { border-color: transparent; }
-      50% { border-color: #00ff88; }
+
+      from,
+      to {
+        border-color: transparent;
+      }
+
+      50% {
+        border-color: #00ff88;
+      }
     }
 
     .data-flow {
@@ -905,12 +1012,15 @@
         transform: translateY(-100vh);
         opacity: 0;
       }
+
       10% {
         opacity: 1;
       }
+
       90% {
         opacity: 1;
       }
+
       100% {
         transform: translateY(100vh);
         opacity: 0;
@@ -941,6 +1051,7 @@
         transform: translateY(-100vh);
         opacity: 1;
       }
+
       100% {
         transform: translateY(100vh);
         opacity: 0;
@@ -966,7 +1077,9 @@
     }
 
     @keyframes fillProgress {
-      to { width: var(--progress-width); }
+      to {
+        width: var(--progress-width);
+      }
     }
 
     /* Responsive Design */
@@ -1028,12 +1141,12 @@
       .btn {
         width: 200px;
       }
-      
+
       section {
         margin: 30px 10px;
         padding: 30px 20px;
       }
-      
+
       .typing-text {
         font-size: 1em;
       }
@@ -1077,6 +1190,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Enhanced Animated Background -->
@@ -1118,8 +1232,9 @@
       <div class="hero-text">
         <h1>Shahad Pathan</h1>
         <h2 class="hero-subtitle">Frontend Developer | Data Scientist | Computer Engineering Student</h2>
-        <p class="hero-description">Passionate about creating innovative solutions with Python, machine learning, and modern web technologies.</p>
-        
+        <p class="hero-description">Passionate about creating innovative solutions with Python, machine learning, and
+          modern web technologies.</p>
+
 
         <!-- Call to Action Buttons -->
         <div class="cta-buttons">
@@ -1127,7 +1242,7 @@
           <a href="#contact" class="btn btn-secondary">Get In Touch</a>
         </div>
       </div>
-      
+
       <!-- Enhanced Typing Animation -->
       <div class="typing-animation">
         <div class="typing-text" id="typingText">print("Welcome to my advanced portfolio!")</div>
@@ -1142,8 +1257,10 @@
     </div>
     <div class="about-content">
       <div class="about-text">
-        <p>I am Shahad Pathan, currently studying Computer Engineering at GTU-SET. I have a strong foundation in Python, HTML, and CSS, with a passion for creating innovative solutions.</p>
-        <p>My goal is to become a successful Data Scientist with expertise in machine learning and web development. I enjoy solving complex problems and turning data into meaningful insights.</p>
+        <p>I am Shahad Pathan, currently studying Computer Engineering at GTU-SET. I have a strong foundation in Python,
+          HTML, and CSS, with a passion for creating innovative solutions.</p>
+        <p>My goal is to become a successful Data Scientist with expertise in machine learning and web development. I
+          enjoy solving complex problems and turning data into meaningful insights.</p>
         <div class="stats-container">
           <div class="stat-item">
             <h3>5+</h3>
@@ -1184,7 +1301,7 @@
         </div>
         <div class="skill-bar">
           <span>JavaScript</span>
-          <div class="skill-progress" style="--progress-width: 65%;"></div>
+          <div class="skill-progress" style="--progress-width: 50%;"></div>
         </div>
       </div>
       <div class="skill-category">
@@ -1222,29 +1339,30 @@
       <div class="project-card">
         <div class="project-icon-display">💻</div>
         <h3>Portfolio Website</h3>
-        <p>Responsive portfolio website with advanced animations, modern design, and interactive Python code visualizations.</p>
+        <p>Responsive portfolio website with advanced animations, modern design, and interactive Python code
+          visualizations.</p>
         <div class="project-tech">
           <span class="tech-tag">HTML</span>
           <span class="tech-tag">CSS</span>
           <span class="tech-tag">JavaScript</span>
         </div>
         <div class="project-links">
-          <a href="#" class="project-link">Live Demo</a>
-          <a href="#" class="project-link">GitHub</a>
+          <a href="https://shahadpathan.github.io/" class="project-link">Live Demo</a>
+          <a href="https://github.com/SHAHADPATHAN/shahadpathan.github.io" class="project-link">GitHub</a>
         </div>
       </div>
       <div class="project-card">
-        <div class="project-icon-display">📊</div>
-        <h3>Data Analysis Dashboard</h3>
+        <div class="project-icon-display">🌐</div>
+        <h3>Consultancy Website</h3>
         <p>Interactive dashboard for data visualization and analysis using Python and modern web technologies.</p>
         <div class="project-tech">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Pandas</span>
-          <span class="tech-tag">Plotly</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
         </div>
         <div class="project-links">
-          <a href="#" class="project-link">Live Demo</a>
-          <a href="#" class="project-link">GitHub</a>
+          <a href="https://hirconsultancy.github.io/" class="project-link">Live Demo</a>
+          <a href="https://github.com/Hirconsultancy/hirconsultancy.github.io" class="project-link">GitHub</a>
         </div>
       </div>
     </div>
@@ -1259,7 +1377,8 @@
       <div class="certificate-card">
         <div class="certificate-icon">📱</div>
         <h3>Flutter Development</h3>
-        <p>Successfully completed the Flutter Webinar Series: Build, Innovate, Launch! Demonstrated commitment to learning, innovation, and advancing skills in Flutter development.</p>
+        <p>Successfully completed the Flutter Webinar Series: Build, Innovate, Launch! Demonstrated commitment to
+          learning, innovation, and advancing skills in Flutter development.</p>
         <div class="certificate-details">
           <span class="cert-issuer">IEEE MMU CS & Ultron Technologies</span>
           <span class="cert-date">December 2024</span>
@@ -1269,27 +1388,32 @@
       <div class="certificate-card">
         <div class="certificate-icon">⚡</div>
         <h3>JavaScript Mastery</h3>
-        <p>Successfully completed the Mastering JS session under GDG SUI Tech Winter Break. Covered essential concepts and practical applications of JavaScript, modern frameworks, and effective coding practices.</p>
+        <p>Successfully completed the Mastering JS session under GDG SUI Tech Winter Break. Covered essential concepts
+          and practical applications of JavaScript, modern frameworks, and effective coding practices.</p>
         <div class="certificate-details">
           <span class="cert-issuer">Google Developer Groups - SAGE University</span>
           <span class="cert-date">December 2024</span>
         </div>
-        <a href="Blue and Gold Simple Certificate_20241216_195012_0000.png" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="Blue and Gold Simple Certificate_20241216_195012_0000.png" target="_blank"
+          class="certificate-link">View Certificate</a>
       </div>
       <div class="certificate-card">
         <div class="certificate-icon">🚀</div>
         <h3>Agnirva Space Internship Program</h3>
-        <p>Successfully completed The Agnirva Space Internship Program, demonstrating commitment to space technology and innovation. Gained valuable experience in space-related projects and technologies.</p>
+        <p>Successfully completed The Agnirva Space Internship Program, demonstrating commitment to space technology and
+          innovation. Gained valuable experience in space-related projects and technologies.</p>
         <div class="certificate-details">
           <span class="cert-issuer">Agnirva</span>
           <span class="cert-date">January 2025</span>
         </div>
-        <a href="THE AGNIRVA SPACE INTERNSHIP PROGRAM_page-0001.jpg" target="_blank" class="certificate-link">View Certificate</a>
+        <a href="THE AGNIRVA SPACE INTERNSHIP PROGRAM_page-0001.jpg" target="_blank" class="certificate-link">View
+          Certificate</a>
       </div>
       <div class="certificate-card">
         <div class="certificate-icon">🐍</div>
         <h3>Python Assessment</h3>
-        <p>Successfully completed Python Assessment from LearnTube by CareerNinja. Demonstrated proficiency in Python programming concepts, data structures, and problem-solving skills.</p>
+        <p>Successfully completed Python Assessment from LearnTube by CareerNinja. Demonstrated proficiency in Python
+          programming concepts, data structures, and problem-solving skills.</p>
         <div class="certificate-details">
           <span class="cert-issuer">LearnTube by CareerNinja</span>
           <span class="cert-date">September 2024</span>
@@ -1299,7 +1423,8 @@
       <div class="certificate-card">
         <div class="certificate-icon">📱</div>
         <h3>Flutter Workshop Participation</h3>
-        <p>Participated in Flutter Workshop organized by Google Developer Groups On Campus R.V.R&J.C. Gained hands-on experience with Flutter for mobile application development and design.</p>
+        <p>Participated in Flutter Workshop organized by Google Developer Groups On Campus R.V.R&J.C. Gained hands-on
+          experience with Flutter for mobile application development and design.</p>
         <div class="certificate-details">
           <span class="cert-issuer">Google Developer Groups RVR&JC CE</span>
           <span class="cert-date">December 2024</span>
@@ -1307,17 +1432,18 @@
         <a href="Pathan Shahad (2).pdf" target="_blank" class="certificate-link">View Certificate</a>
       </div>
       <div class="certificate-card">
-       <div class="certificate-icon">🚧</div>
-       <h3>National Road Safety Hackathon 2025</h3>
-       <p>Participated in the National Road Safety Hackathon 2025 jointly organized by NHAI and HOAI. Contributed innovative solutions to enhance road safety using technology.</p>
-       <div class="certificate-details">
-         <span class="cert-issuer">Ministry of Road Transport & Highways | NHAI & HOAI</span>
-         <span class="cert-date">June 2025</span>
-       </div>
-       <a href="hacathoncertificate.jpg" target="_blank" class="certificate-link">View Certificate</a>
-     </div>
+        <div class="certificate-icon">🚧</div>
+        <h3>National Road Safety Hackathon 2025</h3>
+        <p>Participated in the National Road Safety Hackathon 2025 jointly organized by NHAI and HOAI. Contributed
+          innovative solutions to enhance road safety using technology.</p>
+        <div class="certificate-details">
+          <span class="cert-issuer">Ministry of Road Transport & Highways | NHAI & HOAI</span>
+          <span class="cert-date">June 2025</span>
+        </div>
+        <a href="hacathoncertificate.jpg" target="_blank" class="certificate-link">View Certificate</a>
+      </div>
     </div>
-   </section>
+  </section>
 
   <section id="contact" class="contact">
     <div class="section-header">
@@ -1341,24 +1467,28 @@
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-icon">💼</div>
+          <div class="contact-icon"><img src="linkedin.png" alt=""></div>
           <div class="contact-details">
             <h4>LinkedIn</h4>
-            <p><a href="https://www.linkedin.com/in/shahad-pathan-a909972ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/shahad-pathan</a></p>
+            <p><a
+                href="https://www.linkedin.com/in/shahad-pathan-a909972ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">linkedin.com/in/shahad-pathan</a></p>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-icon">💻</div>
+          <div class="contact-icon"><img src="github.png" alt=""></div>
           <div class="contact-details">
             <h4>GitHub</h4>
-            <p><a href="https://github.com/SHAHADPATHAN" target="_blank" style="color: #00d4ff; text-decoration: none;">github.com/SHAHADPATHAN</a></p>
+            <p><a href="https://github.com/SHAHADPATHAN" target="_blank"
+                style="color: #00d4ff; text-decoration: none;">github.com/SHAHADPATHAN</a></p>
           </div>
         </div>
         <div class="contact-item">
           <div class="contact-icon">📍</div>
           <div class="contact-details">
             <h4>Location</h4>
-            <p><a href="https://www.google.com/maps/search/Mehsana,+Gujarat,+India" target="_blank" style="color: #00d4ff; text-decoration: none;">Mehsana, Gujarat, India</a></p>
+            <p><a href="https://www.google.com/maps/search/Mehsana,+Gujarat,+India" target="_blank"
+                style="color: #00d4ff; text-decoration: none;">Mehsana, Gujarat, India</a></p>
           </div>
         </div>
       </div>
@@ -1384,16 +1514,16 @@
         'df = pd.read_csv("data.csv")',
         'neural_network.fit(X_train, y_train)'
       ];
-      
+
       const snippet = document.createElement('div');
       snippet.className = 'code-snippet';
       snippet.textContent = snippets[Math.floor(Math.random() * snippets.length)];
       snippet.style.top = Math.random() * 100 + 'vh';
       snippet.style.left = '-300px';
       snippet.style.animationDelay = Math.random() * 5 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(snippet);
-      
+
       setTimeout(() => snippet.remove(), 20000);
     }
 
@@ -1404,9 +1534,9 @@
       logo.style.top = Math.random() * 100 + 'vh';
       logo.style.left = '-50px';
       logo.style.animationDelay = Math.random() * 8 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(logo);
-      
+
       setTimeout(() => logo.remove(), 25000);
     }
 
@@ -1420,7 +1550,7 @@
         { type: 'sql', text: 'SQL' },
         { type: 'git', text: 'GIT' }
       ];
-      
+
       const lang = languages[Math.floor(Math.random() * languages.length)];
       const icon = document.createElement('div');
       icon.className = `lang-icon ${lang.type}`;
@@ -1428,9 +1558,9 @@
       icon.style.top = Math.random() * 100 + 'vh';
       icon.style.left = '-60px';
       icon.style.animationDelay = Math.random() * 5 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(icon);
-      
+
       setTimeout(() => icon.remove(), 20000);
     }
 
@@ -1442,7 +1572,7 @@
         { type: 'database', symbol: '🗄️' },
         { type: 'graph', symbol: '📈' }
       ];
-      
+
       const data = dataTypes[Math.floor(Math.random() * dataTypes.length)];
       const icon = document.createElement('div');
       icon.className = `data-icon ${data.type}`;
@@ -1450,9 +1580,9 @@
       icon.style.top = Math.random() * 100 + 'vh';
       icon.style.left = '-80px';
       icon.style.animationDelay = Math.random() * 6 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(icon);
-      
+
       setTimeout(() => icon.remove(), 25000);
     }
 
@@ -1464,7 +1594,7 @@
         { type: 'ai', text: 'AI' },
         { type: 'data', text: 'DATA' }
       ];
-      
+
       const project = projects[Math.floor(Math.random() * projects.length)];
       const icon = document.createElement('div');
       icon.className = `project-icon ${project.type}`;
@@ -1472,9 +1602,9 @@
       icon.style.top = Math.random() * 100 + 'vh';
       icon.style.left = '-55px';
       icon.style.animationDelay = Math.random() * 4 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(icon);
-      
+
       setTimeout(() => icon.remove(), 18000);
     }
 
@@ -1487,7 +1617,7 @@
         { type: 'code', symbol: '⚙️' },
         { type: 'network', symbol: '🌐' }
       ];
-      
+
       const tech = techItems[Math.floor(Math.random() * techItems.length)];
       const icon = document.createElement('div');
       icon.className = `tech-icon ${tech.type}`;
@@ -1495,9 +1625,9 @@
       icon.style.top = Math.random() * 100 + 'vh';
       icon.style.left = '-65px';
       icon.style.animationDelay = Math.random() * 5 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(icon);
-      
+
       setTimeout(() => icon.remove(), 22000);
     }
 
@@ -1507,17 +1637,17 @@
       flow.className = 'data-flow';
       flow.style.left = Math.random() * 100 + 'vw';
       flow.style.animationDelay = Math.random() * 3 + 's';
-      
+
       document.getElementById('pythonAnimation').appendChild(flow);
-      
+
       setTimeout(() => flow.remove(), 10000);
     }
 
     // Create particles
     function createParticles() {
       const particlesContainer = document.getElementById('particles');
-      
-      for(let i = 0; i < 50; i++) {
+
+      for (let i = 0; i < 50; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
         particle.style.left = Math.random() * 100 + 'vw';
@@ -1525,7 +1655,7 @@
         particle.style.width = particle.style.height = (Math.random() * 5 + 2) + 'px';
         particle.style.animationDelay = Math.random() * 6 + 's';
         particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
-        
+
         particlesContainer.appendChild(particle);
       }
     }
@@ -1534,16 +1664,16 @@
     function createMatrixEffect() {
       const matrixContainer = document.getElementById('matrixEffect');
       const chars = '01';
-      
-      for(let i = 0; i < 20; i++) {
+
+      for (let i = 0; i < 20; i++) {
         const char = document.createElement('div');
         char.className = 'matrix-char';
         char.textContent = chars[Math.floor(Math.random() * chars.length)];
         char.style.left = Math.random() * 100 + 'vw';
         char.style.animationDelay = Math.random() * 8 + 's';
-        
+
         matrixContainer.appendChild(char);
-        
+
         setTimeout(() => char.remove(), 8000);
       }
     }
@@ -1559,10 +1689,10 @@
         'result = analyze_big_data()',
         'if dream == True: make_it_reality()'
       ];
-      
+
       let currentIndex = 0;
       const typingElement = document.getElementById('typingText');
-      
+
       setInterval(() => {
         typingElement.textContent = texts[currentIndex];
         currentIndex = (currentIndex + 1) % texts.length;
@@ -1591,13 +1721,13 @@
     // Smooth Scrolling
     function initSmoothScroll() {
       const links = document.querySelectorAll('a[href^="#"]');
-      
+
       links.forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           const targetId = link.getAttribute('href');
           const targetSection = document.querySelector(targetId);
-          
+
           if (targetSection) {
             const offsetTop = targetSection.offsetTop - 70;
             window.scrollTo({
@@ -1612,7 +1742,7 @@
     // Navbar Scroll Effect
     function initNavbarScroll() {
       const navbar = document.querySelector('.navbar');
-      
+
       window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
           navbar.style.background = 'rgba(0, 0, 0, 0.95)';
@@ -1623,13 +1753,13 @@
     }
 
     // Initialize all animations and functionality
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       createParticles();
       updateTypingText();
       initMobileNav();
       initSmoothScroll();
       initNavbarScroll();
-      
+
       // Start creating animations
       setInterval(createCodeSnippet, 2000);
       setInterval(createPythonLogo, 4000);
@@ -1643,4 +1773,5 @@
   </script>
 
 </body>
+
 </html>
