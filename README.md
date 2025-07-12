@@ -1354,7 +1354,7 @@
       <div class="project-card">
         <div class="project-icon-display">🌐</div>
         <h3>Consultancy Website</h3>
-        <p>Interactive dashboard for data visualization and analysis using Python and modern web technologies.</p>
+        <p>Designed and developed a responsive consultancy website for MBBS abroad guidance using modern front-end technologies like HTML, CSS, and Bootstrap — aimed at enhancing student outreach and inquiry management.</p>
         <div class="project-tech">
           <span class="tech-tag">HTML</span>
           <span class="tech-tag">CSS</span>
