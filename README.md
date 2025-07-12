@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="This Is The Page Which Contains Description about Shahad Pathan">
   <title>Shahad Pathan - Portfolio</title>
-<link rel="icon" href="logo.png?v=2" type="image/png">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+
 
 
  
