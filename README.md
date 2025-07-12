@@ -1506,7 +1506,7 @@
           <div class="contact-icon">📱</div>
           <div class="contact-details">
             <h4>Mobile</h4>
-            <p><a href="call:919913031752">+91 9913031752</a></p>
+            <p><a href="tel:+919913031752">+91 9913031752</a></p>
           </div>
         </div>
         <div class="contact-item">
