@@ -530,6 +530,37 @@
     }
 
     /* Contact Section Enhancements */
+    form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    form input,
+    form textarea {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    form button {
+      background: #00d4ff;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: #00d4ff;
+    }
+
     .contact-content {
       max-width: 600px;
       margin: 0 auto;
@@ -1122,6 +1153,9 @@
         transform: translateY(-8px) rotate(-45deg);
       }
 
+
+
+
       header {
         padding: 100px 20px 40px;
       }
@@ -1355,7 +1389,7 @@
       <div class="project-card">
         <div class="project-icon-display">🌐</div>
         <h3>Consultancy Website</h3>
-        <p>Designed and developed a responsive consultancy website for MBBS abroad guidance using modern front-end technologies like HTML, CSS, and Bootstrap — aimed at enhancing student outreach and inquiry management.</p>
+        <p>Interactive dashboard for data visualization and analysis using Python and modern web technologies.</p>
         <div class="project-tech">
           <span class="tech-tag">HTML</span>
           <span class="tech-tag">CSS</span>
@@ -1447,6 +1481,14 @@
   </section>
 
   <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/xovwgzev" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+
+    </form>
     <div class="section-header">
       <h2>Get In Touch</h2>
       <div class="section-subtitle">Let's connect and collaborate</div>
@@ -1464,7 +1506,7 @@
           <div class="contact-icon">📱</div>
           <div class="contact-details">
             <h4>Mobile</h4>
-            <p>+91 9913031752</p>
+            <p><a href="call:919913031752">+91 9913031752</a></p>
           </div>
         </div>
         <div class="contact-item">
