@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="This Is The Page Which Contains Description about Shahad Pathan">
   <title>Shahad Pathan - Portfolio</title>
- <link rel="icon" type="image/png" href="logo.png">
-  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<link rel="icon" href="logo.png?v=2" type="image/png">
 
-  <link rel="app" href="https://jarvis-d41ca9.zapier.app">
+
+ 
   <style>
     * {
       margin: 0;
