@@ -1395,7 +1395,8 @@
       <div class="project-card">
         <div class="project-icon-display">🌐</div>
         <h3>Consultancy Website</h3>
-        <p>Interactive dashboard for data visualization and analysis using Python and modern web technologies.</p>
+        <p>Interactive and mobile-friendly consultancy platform for MBBS aspirants — built to highlight affordable
+          global education options, NMC-approved universities, and personalized guidance.</p>
         <div class="project-tech">
           <span class="tech-tag">HTML</span>
           <span class="tech-tag">CSS</span>
